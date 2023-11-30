@@ -1,15 +1,27 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Login from './components/Login';
+import Layout from "./components/Layout.jsx";
+import Home from "./pages/Home.jsx";
+import Login from "./pages/Login.jsx";
+import SignUp from "./pages/SignUp.jsx";
+import Pricing from "./pages/Pricing.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 const App = () => {
-	return (
-		<>
-			<Navbar></Navbar>
-			<main className="p-14 px-8 bg-white font-jost">
-        <Login></Login>
-      </main>
-		</>
-	);
+  return (
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<SignUp />} />
+            <Route path="/pricing" element={<Pricing />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+          </Route>
+        </Routes>
+      </Router>
+    </>
+  );
 };
 
 export default App;
