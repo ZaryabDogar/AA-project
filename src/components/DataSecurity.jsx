@@ -3,7 +3,7 @@ import Section from "./Section";
 const DataSecurity = () => {
   return (
     <Section>
-      <div className="flex lg:flex-row flex-col-reverse w-full font-nunito items-center justify-around py-14 gap-y-8">
+      <div className="flex lg:flex-row flex-col-reverse w-full font-nunito items-center justify-around pt-14 pb-52 gap-y-8">
         {/* Left Image */}
         <div className="relative sm:w-[45%] w-[70%]">
           <img src="/security.png" alt="" className=" bg-[url(/ellipse.png)] bg-contain bg-bottom bg-no-repeat"/>
