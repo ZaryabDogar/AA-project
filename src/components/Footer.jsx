@@ -41,7 +41,7 @@ const Footer = () => {
         { title: "Home", link: "/" },
         { title: "Pricing", link: "/pricing" },
         { title: "Blog", link: "#" },
-        { title: "Demo", link: "#" },
+        { title: "Demo", link: "/dashboard" },
       ],
     },
     {
@@ -70,9 +70,10 @@ const Footer = () => {
   ];
 
   return (
-    <Section>
-      <ul className="flex flex-wrap sm:flex-row flex-col items-start justify-between gap-y-8 font-roboto text-navtext sm:pt-14 pt-7 sm:pb-8 pb-4">
-        <li className="sm:block sm:w-auto w-full flex items-center justify-between">
+    <Section className=" ">
+      <ul className="flex flex-wrap sm:flex-row flex-col sm:items-start sm:justify-between justify-center gap-y-8 font-roboto text-white sm:pt-32 pt-7 sm:pb-8 pb-4 bg-darkgreen">
+        
+        <li className="sm:block sm:w-auto w-full flex flex-col  items-center justify-between">
           <img src="/logo.png" alt="Logo" className="sm:w-full w-[55%]" />
           <div className="social_links flex items-center justify-around p-4 sm:w-auto w-[45%] sm:gap-0 gap-2">
             {social_links.map((link, i) => (
@@ -82,6 +83,7 @@ const Footer = () => {
             ))}
           </div>
         </li>
+       
         {specialLinks.map((link, i) => (
           <li key={i}>
             <h3 className="font-bold text-[21.01px] leading-[24.62px] pb-8">

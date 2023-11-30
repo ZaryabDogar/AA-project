@@ -12,7 +12,10 @@ export default {
       lightGrey:"#6A6A6A",
       inputBg:"#DEDADA",
       inputText:"#595959",
-      bgBlue:"#D2EAE4"
+      bgBlue:"#D2EAE4",
+      input:"#D9DEE4",
+      white:"#FFFFFF",
+      darkgreen:"#2C3532",
     },
     fontFamily: {
       jost: ["Jost", "serif"],
