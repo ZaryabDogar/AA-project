@@ -18,10 +18,14 @@ const Navbar = ({ scrolling }) => {
 
 	const isHome = location.pathname === '/';
 	const isdashboard = location.pathname === '/dashboard';
-	const navBg = isHome? scrolling ? 'bg-darkgreen text-white' : 'bg-transparent ':'bg-darkgreen';
-	
+	const navBg = isHome
+		? scrolling
+			? 'bg-darkgreen text-white'
+			: 'bg-transparent '
+		: 'bg-darkgreen';
+
 	const navPosition = isHome ? 'sm:fixed' : 'sticky';
-	const notdashboard=!isdashboard?"":" text-white"
+	const notdashboard = !isdashboard ? '' : ' text-white';
 
 	return (
 		<nav
@@ -39,7 +43,9 @@ const Navbar = ({ scrolling }) => {
 				{/* content  */}
 				<div className="sm:flex hidden">
 					<div className="flex ">
-						<ul className={`decoration-transparent font-jost flex items-center justify-center  text-[18px] md:space-x-20 space-x-6  ${navBg } ${notdashboard}  text-white`}>
+						<ul
+							className={`decoration-transparent font-jost flex items-center justify-center  text-[18px] md:space-x-20 space-x-6  ${navBg} ${notdashboard}  text-white`}
+						>
 							<Link to="/">
 								<li className=" font-[500]">Home</li>
 							</Link>
@@ -50,33 +56,38 @@ const Navbar = ({ scrolling }) => {
 					</div>
 				</div>
 				{/* buttons */}
-			{!isdashboard&&(	<div className="flex  text-[18px] md:space-x-12 space-x-3 items-center">
-					<div className="sm:flex items-center hidden text-[18px] md:space-x-12 space-x-3 ">
-						<Link to="/login">
-							<button className={`bg-inputBg px-8 py-4 text-major font-jost font-bold`} >Login</button>
-						</Link>
-						<Link to="/signup">
-							<button className="font-[700] bg-major  px-8 py-4 text-btntext">
-								Signup
-							</button>
-						</Link>
+				{!isdashboard && (
+					<div className="flex  text-[18px] md:space-x-12 space-x-3 items-center">
+						<div className="sm:flex items-center hidden text-[18px] md:space-x-12 space-x-3 ">
+							<Link to="/login">
+								<button
+									className={`bg-inputBg px-8 py-4 text-major font-jost font-bold`}
+								>
+									Login
+								</button>
+							</Link>
+							<Link to="/signup">
+								<button className="font-[700] bg-major  px-8 py-4 text-btntext">
+									Signup
+								</button>
+							</Link>
+						</div>
 					</div>
-					
-				</div>)}
+				)}
 
 				{/* img on navbar  */}
-				{isdashboard&&(
+				{isdashboard && (
 					<div className="bg-navtext sm:block hidden   rounded-full">
 						<img src="/dashbpard.png" alt="" />
 					</div>
 				)}
 				<button
-						type="button"
-						className={`  font-medium text-4xl  px-2 py-2 text-center  sm:hidden block text-white`}
-						onClick={toggleDropdown}
-					>
-						<RxHamburgerMenu />
-					</button>
+					type="button"
+					className={`  font-medium text-4xl  px-2 py-2 text-center  sm:hidden block text-white`}
+					onClick={toggleDropdown}
+				>
+					<RxHamburgerMenu />
+				</button>
 			</div>
 			{/* responsive  */}
 			{isOpen && (
@@ -97,30 +108,34 @@ const Navbar = ({ scrolling }) => {
 							</li>
 						</Link>
 					</ul>
-							{/* buttons */}
-			{!isdashboard&&(	<div className="flex  text-[18px]  items-center justify-center mt-5">
-					<div className="flex items-center  text-[18px]  justify-center space-x-12 ">
-					<Link to="/login">
-							<button className={`bg-inputBg px-8 py-4 text-major font-jost font-bold`} >Login</button>
-						</Link>
-						<Link to="/signup">
-							<button className="font-[700] bg-major  px-8 py-4 text-btntext">
-								Signup
-							</button>
-						</Link>
-					</div>
-					
-				</div>)}
+					{/* buttons */}
+					{!isdashboard && (
+						<div className="flex  text-[18px]  items-center justify-center mt-5">
+							<div className="flex items-center  text-[18px]  justify-center space-x-12 ">
+								<Link to="/login">
+									<button
+										className={`bg-inputBg px-8 py-4 text-major font-jost font-bold`}
+									>
+										Login
+									</button>
+								</Link>
+								<Link to="/signup">
+									<button className="font-[700] bg-major  px-8 py-4 text-btntext">
+										Signup
+									</button>
+								</Link>
+							</div>
+						</div>
+					)}
 
 					{/* img on navbar  */}
-					{isdashboard&&(
-					<div className=" flex  items-center justify-center pt-20">
-						<div className="bg-navtext  rounded-full">
-						<img src="/dashbpard.png" alt="" />
-						
+					{isdashboard && (
+						<div className=" flex  items-center justify-center pt-20">
+							<div className="bg-navtext  rounded-full">
+								<img src="/dashbpard.png" alt="" />
+							</div>
 						</div>
-					</div>
-				)}
+					)}
 				</div>
 			)}
 		</nav>
