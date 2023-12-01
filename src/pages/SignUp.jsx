@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 const SignUp = () => {
 	return (
-		<section className="md:min-h-[1200px]  pt-16 md:bg-[url('/mainbg.png')] bg-center  bg-no-repeat xl:bg-[length:75%]  lg:bg-[length:70%] bg-[length:80%] bg-darkgreen">
-			<div className="text-black lg:p-20 sm:p-10 p-5  flex md:justify-between md:flex-row flex-col justify-center md:items-start">
+		<section className="md:min-h-[1000px]  pt-0 md:bg-[url('/mainbg.png')] bg-center  bg-no-repeat xl:bg-[length:75%]  lg:bg-[length:70%] bg-[length:80%] bg-darkgreen">
+			<div className="text-black lg:p-20 lg:pt-12 sm:p-10 p-5  flex md:justify-between md:flex-row flex-col justify-center md:items-start">
 				{/* text  */}
 				<div className="flex flex-col lg:space-y-8 space-y-5 lg:w-[52%] text-center md:text-start items-start">
 					<p className="font-[900] lg:text-[40px] md:text-[30px] sm:text-[40px] text-[25px]  lg:leading-[60px] leading-[50px] text-white font-nunito">
