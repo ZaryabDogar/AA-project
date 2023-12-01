@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation,  } from 'react-router-dom';
 import Section from "./Section";
 import {
   FaFacebookF,
@@ -11,6 +11,10 @@ import { IoMdMail } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
+  const location = useLocation();
+
+  const isHome = location.pathname === '/';
+
   const iconStyle = "text-[25.54px]";
 
   const contactIcons = "text-[22.54px]";
@@ -71,7 +75,7 @@ const Footer = () => {
 
   return (
     <Section className=" ">
-      <ul className="flex flex-wrap sm:flex-row flex-col sm:items-start sm:justify-between justify-center gap-y-8 font-roboto text-white sm:pt-32 pt-7 sm:pb-8 pb-4 bg-darkgreen">
+      <ul className={`flex flex-wrap sm:flex-row flex-col sm:items-start sm:justify-between justify-center gap-y-8 font-roboto text-white sm:pt-32 pt-7 sm:pb-8 pb-4  xl:px-20 px-5 ${isHome?'bg-[#000000]':'bg-darkgreen'}`}>
         
         <li className="sm:block sm:w-auto w-full flex flex-col  items-center justify-between">
           <img src="/logo.png" alt="Logo" className="sm:w-full w-[55%]" />

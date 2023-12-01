@@ -10,7 +10,7 @@ const Layout = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      if (scrollPosition > 0) {
+      if (scrollPosition > 60) {
         setScrolling(true);
       } else {
         setScrolling(false);
@@ -24,7 +24,7 @@ const Layout = () => {
   }, [scrolling]);
 
   return (
-    <main className="bg-primary">
+    <main className="bg-primary ">
       <Navbar scrolling={scrolling}/>
       <Outlet />
       <Footer />
