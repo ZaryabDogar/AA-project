@@ -69,13 +69,13 @@ const Footer = () => {
     {
       icon: <FaLocationDot className={contactIcons} />,
       content:
-        "9442 Capital of Texas Hwy Bldg 1, STE 500 Austin, TX 78759 Reply 986.35 189.71 124 19 0° 100% 16.34 Auto 0% 0 2C3532 100%",
+        "9442 Capital of Texas Hwy Bldg 1, STE 500 Austin, TX 78759",
     },
   ];
 
   return (
     <Section className=" ">
-      <ul className={`flex flex-wrap sm:flex-row flex-col sm:items-start sm:justify-between justify-center gap-y-8 font-roboto text-white sm:pt-32 pt-7 sm:pb-8 pb-4  xl:px-20 px-5 ${isHome?'bg-[#000000]':'bg-darkgreen'}`}>
+      <ul className={`flex flex-wrap sm:flex-row flex-col sm:items-start sm:justify-between justify-center gap-y-8 font-roboto text-white sm:pt-32 pt-7 sm:pb-8 pb-4  xl:px-20 px-5 bg-[#000000]`}>
         
         <li className="sm:block sm:w-auto w-full flex flex-col  items-center justify-between">
           <img src="/logo.png" alt="Logo" className="sm:w-full w-[55%]" />

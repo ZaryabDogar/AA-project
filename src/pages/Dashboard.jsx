@@ -1,13 +1,13 @@
 const Dashboard = () => {
 	return (
-		<section className="md:p-16 pt-16 p-4 bg-darkgreen">
+		<section className="md:p-16 pt-16 p-4 bg-[#000000]">
 			<div className="w-full bg-white shadow-lg">
 				<div className="sm:p-12 p-3 ">
 					<div className="flex justify-between items-center ">
 						<p className="font-jost font-bold text-major md:text-[32px] sm:text-[25px] text-lg">
 							STEGSEC Free Plan
 						</p>
-						<button className="font-[700] bg-major  sm:px-7 sm:py-5 px-3 py-3 text-btntext font-jost sm:text-[18px] text-sm">
+						<button className="font-[700] bg-major  sm:px-7 sm:py-5 px-3 py-3 text-btntext font-jost sm:text-[18px] text-sm rounded-[40px]">
 							Download
 						</button>
 					</div>
@@ -65,7 +65,7 @@ const Dashboard = () => {
 				</div>
 
 				<div className="p-20 flex items-center justify-center">
-					<button className="font-[700] bg-major  sm:px-24 px-12 py-4 text-btntext font-jost sm:text-[18px] text-sm">
+					<button className="font-[700] bg-major  sm:px-24 px-12 py-4 text-btntext font-jost sm:text-[18px] text-sm rounded-[40px]">
 						Buy Premium
 					</button>
 				</div>

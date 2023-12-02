@@ -6,7 +6,7 @@ import ContactForm from "../components/ContactForm";
 const Home = () => {
   return (
     <>
-    <section className="bg-gradient-to-b from-[#2C3532] to-[#000000] ">
+    <section className="bg-[#000000] ">
       <Banner/>
       <DataSecurity/>
       <Features/>

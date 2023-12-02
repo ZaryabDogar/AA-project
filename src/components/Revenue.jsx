@@ -53,7 +53,7 @@ const Revenue = () => {
         </div>
         </div>
       </div>
-      <div className="font-nunito text-center py-14 px-5 pb-28">
+      <div className="font-nunito text-center py-14 px-5 lg:pb-28 pb-20">
         <h2 className="font-[800] xl:w-[50%] lg:w-[60%] w-full mx-auto sm:text-4xl text-[26px] sm:leading-[49.1px] text-white">
           Ready to experience the next frontier in multimedia data security?
         </h2>
@@ -64,7 +64,7 @@ const Revenue = () => {
           responsibility.
         </p>
         <Link to="/signup">
-          <button className="font-[700] bg-major px-8 py-4 text-[white]">
+          <button className="font-[700] bg-major px-11 py-3 text-[white] rounded-[40px]">
             Sign up
           </button>
         </Link>
