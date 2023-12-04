@@ -21,7 +21,7 @@ const SignUp = () => {
           <img src="/mainbg1.png" alt="" />
         </div>
 				<div className="flex flex-col justify-center items-center space-y-4 mt-8">
-					<div className="">
+					<div className="w-[300px]">
 						<input
 							type="email"
 							name="email"
@@ -30,7 +30,7 @@ const SignUp = () => {
 							className="appearance-none outline-none bg-input placeholder-shown:font-nunito placeholder-shown:font-[400] placeholder-shown:text-[18px] placeholder-shown:leading-[27px] xl:w-[500px] xl:h-[68px] rounded-[49px] md:w-[300px] w-full   py-3 px-4"
 						/>
 					</div>
-					<div className="">
+					<div className="w-[300px]">
 						<input
 							type="password"
 							name="password"
@@ -39,7 +39,7 @@ const SignUp = () => {
 							className="appearance-none outline-none bg-input placeholder-shown:font-nunito placeholder-shown:font-[400] placeholder-shown:text-[18px] placeholder-shown:leading-[27px] xl:w-[500px] md:w-[300px] xl:h-[68px] rounded-[49px] w-full py-3 px-4"
 						/>
 					</div>
-					<div className="">
+					<div className="w-[300px]">
 						<input
 							type="password"
 							name="password"

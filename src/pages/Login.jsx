@@ -19,7 +19,7 @@ const Login = () => {
           <img src="/mainbg1.png" alt="" />
         </div>
 				<div className="flex flex-col justify-center items-center space-y-4   mt-16">
-					<div className="">
+					<div className="w-[300px]">
 						<input
 							type="email"
 							name="email"
@@ -29,7 +29,7 @@ const Login = () => {
 							placeholder-shown:text-[#4B4B4B] placeholder-shown:leading-[27px] xl:w-[500px] xl:h-[68px] md:w-[300px] w-full rounded-[49px]   py-3 px-4"
 						/>
 					</div>
-					<div className="">
+					<div className="w-[300px]">
 						<input
 							type="password"
 							name="password"
