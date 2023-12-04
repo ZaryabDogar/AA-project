@@ -57,7 +57,11 @@ const mouseleave=()=>{
                 
               </ul>
               <div className=" flex h-full w-full justify-center items-end">
-              <Link href="/signup" className="  px-5 py-2.5 font-[600] text-sm text-white">Sign Up</Link></div>
+           <Link to="/signup">
+								<button className="font-[700] bg-gradient-to-r from-[#2C3532] via-[#106466] to-[#2C3532]   px-8 py-3   text-btntext rounded-[40px]">
+									Signup
+								</button>
+							</Link></div>
           </div>
            {/* card 2  */}
           <div className="mt-12 lg:mt-0 flex flex-col p-4   max-w-sm text-center  shadow-lg bg-[#106466] hover:border hover:border-[#106466] hover:shadow-md lg:border-0 border border-[#106466] [0_35px_60px_-15px_#3CCF8E1A] relative overflow-hidden transition-transform transform-gpu duration-100 lg:hover:scale-y-110 cursor-pointer hover:z-10 rounded-2xl md:h-[661px]" >
@@ -117,7 +121,11 @@ const mouseleave=()=>{
                 
               </ul>
               <div className=" flex h-full w-full justify-center items-end">
-              <Link href="/signup" className="  px-5 py-2.5 font-[600] text-sm text-white">Sign Up</Link></div>
+           <Link to="/signup">
+								<button className="font-[700] bg-gradient-to-r from-[#2C3532] via-[#106466] to-[#2C3532]   px-8 py-3   text-btntext rounded-[40px]">
+									Signup
+								</button>
+							</Link></div>
           </div>
      
            {/* card 3  */}
@@ -183,7 +191,11 @@ const mouseleave=()=>{
                 
               </ul>
               <div className=" flex h-full w-full justify-center items-end">
-              <Link href="/signup" className="  px-5 py-2.5 font-[600] text-sm text-white">Sign Up</Link></div>
+           <Link to="/signup">
+								<button className="font-[700] bg-gradient-to-r from-[#2C3532] via-[#106466] to-[#2C3532]   px-8 py-3   text-btntext rounded-[40px]">
+									Signup
+								</button>
+							</Link></div>
           </div>
      
 

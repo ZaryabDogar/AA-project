@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const SignUp = () => {
 	return (
-		<section className="md:min-h-[1000px]  pt-0 md:bg-[url('/mainbg.png')] bg-center  bg-no-repeat xl:bg-[length:85%]  lg:bg-[length:70%] bg-[length:80%] bg-[#000000]">
+		<section className="md:min-h-[1000px]  pt-12 md:bg-[url('/mainbg.png')] bg-center  bg-no-repeat xl:bg-[length:70%]  lg:bg-[length:70%] bg-[length:80%] bg-[#000000]">
 			<div className="text-black lg:p-20 lg:pt-12 sm:p-10 p-5  flex md:justify-between md:flex-row flex-col justify-center md:items-start">
 				{/* text  */}
 				<div className="flex flex-col lg:space-y-8 space-y-5 lg:w-[52%] text-center md:text-start items-start">
@@ -52,7 +52,7 @@ const SignUp = () => {
        
           <div className="flex items-center  text-[18px] space-y-3 justify-center  sm:p-10 p-5  flex-col">
 						<Link to="/signup">
-							<button className="font-[700] bg-major  md:px-28 px-12 py-4 text-btntext font-jost rounded-[40px]">
+							<button className="font-[700] bg-major  md:px-[105px] px-12 py-4 text-btntext font-jost rounded-[40px]">
               Signup
 							</button>
 						</Link>

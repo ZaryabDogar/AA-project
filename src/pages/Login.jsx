@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Login = () => {
 	return (
-		<section className="md:h-[1100px] pt-0 md:bg-[url('/mainbg.png')] bg-center  bg-no-repeat xl:bg-[length:90%]  lg:bg-[length:70%] bg-[length:80%] bg-[#000000]">
+		<section className="md:h-[1100px] pt-12 md:bg-[url('/mainbg.png')] bg-center  bg-no-repeat xl:bg-[length:80%]  lg:bg-[length:70%] bg-[length:80%] bg-[#000000]">
 			<div className="text-black lg:p-20 lg:pt-14 lg:pb-10 sm:p-10 p-5  flex md:justify-between md:flex-row flex-col justify-center md:items-start">
 				{/* text  */}
 				<div className="flex flex-col lg:space-y-10 space-y-5 xl:w-[52%] text-center md:text-start ">

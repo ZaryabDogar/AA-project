@@ -17,7 +17,7 @@ const Navbar = ({ scrolling }) => {
 	};
 
 	const isHome = location.pathname === '/';
-  
+	const isprice =location.pathname==='/pricing'
 	const navBg = isHome
 		? scrolling
 			? 'bg-[#000000] text-white'
@@ -64,10 +64,10 @@ const Navbar = ({ scrolling }) => {
 							className={`decoration-transparent font-jost flex items-center justify-center  text-[18px] lg:space-x-14 space-x-3  ${navBg}   text-white`}
 						>
 							<Link to="/">
-								<li className=" font-[500]">Home</li>
+								<li className={`${isHome?'font-[500]':'font-normal'} `}>Home</li>
 							</Link>
 							<Link to="/pricing">
-								<li className="">Pricing</li>
+								<li className={`${isprice?'font-[500]':'font-normal'} `}>Pricing</li>
 							</Link>
 						</ul>
 					</div>

@@ -118,7 +118,7 @@ const Footer = () => {
                 key={i}
               >
                 {contact.icon}
-                <p className="text-[16.34px] leading-[19.15px] last:leading-[28.02px] lg:w-[400px] w-full">
+                <p className="text-[16.34px] leading-[19.15px] last:leading-[28.02px] lg:w-[350px] w-full">
                   {contact.content}
                 </p>
               </li>

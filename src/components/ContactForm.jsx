@@ -2,13 +2,13 @@
 
 const ContactForm = () => {
   return (
-    <div className="flex flex-col lg:flex-row   bg-[#106466]">
+    <div className="flex flex-col lg:flex-row   bg-[#106466] pt-12">
       {/* Image Section */}
-      <div className="lg:w-1/2">
+      <div className="lg:w-1/2 flex lg:justify-end justify-center  xl:pr-20  px-10  items-center">
         <img
           src="/contact.png"  // Replace with the path to your image
           alt="Contact Us"
-          className="object-cover w-full h-full"
+          className="object-cover lg:w-[429px] lg:h-[568px]"
         />
       </div>
 
