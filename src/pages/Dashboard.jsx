@@ -55,6 +55,15 @@ const Dashboard = () => {
 					</p>
 				</div>
 				<div className="sm:pl-12 p-1 py-1 bg-[#CBCBCB63] flex items-center space-x-4">
+					<p className="font-jost font-[500] sm:text-[26px] text-xl sm:leading-[44.9px] leading-[25px] md:w-[35%] sm:w-[30%]">
+					Files to be Hidden:
+					</p>
+					<p className="font-jost font-[400] sm:text-[23px] text-lg sm:leading-[39.72px] leading-[20px] ">
+					txt (Text), docx, doc (Word), xlsx, xls (Excel), pptx, ppt
+						(PowerPoint), pdf (PDF)
+					</p>
+				</div>
+				{/* <div className="sm:pl-12 p-1 py-1 bg-[#CBCBCB63] flex items-center space-x-4">
 					<p className="font-jost font-[500] sm:text-[26px] text-xl sm:leading-[44.9px] leading-[25px] md:w-[45%] sm:w-[30%]">
 						Files to be Hidden:
 					</p>
@@ -62,7 +71,7 @@ const Dashboard = () => {
 						txt (Text), docx, doc (Word), xlsx, xls (Excel), pptx, ppt
 						(PowerPoint), pdf (PDF)
 					</p>
-				</div>
+				</div> */}
 
 				<div className="p-20 flex items-center justify-center">
 					<button className="font-[700] bg-major  sm:px-24 px-12 py-4 text-btntext font-jost sm:text-[18px] text-sm rounded-[40px]">
