@@ -18,24 +18,24 @@ const Login = () => {
         <div className="md:hidden  ">
           <img src="/mainbg1.png" alt="" />
         </div>
-				<div className="flex flex-col justify-center items-center space-y-4   mt-16">
-					<div className="w-[300px]">
+				<div className="flex flex-col justify-center items-center space-y-4   mt-16 ">
+					<div className=" ">
 						<input
 							type="email"
 							name="email"
 							id=""
 							placeholder="Enter Email"
 							className="appearance-none outline-none bg-input placeholder-shown:font-nunito placeholder-shown:font-[400] placeholder-shown:text-[18px] 
-							placeholder-shown:text-[#4B4B4B] placeholder-shown:leading-[27px] xl:w-[500px] xl:h-[68px] md:w-[300px] w-full rounded-[49px]   py-3 px-4"
+							placeholder-shown:text-[#4B4B4B] placeholder-shown:leading-[27px] xl:w-[500px] xl:h-[68px] md:w-[300px] w-[300px] rounded-[49px]   py-3 px-4"
 						/>
 					</div>
-					<div className="w-[300px]">
+					<div className="">
 						<input
 							type="password"
 							name="password"
 							id=""
 							placeholder="Password"
-							className="appearance-none outline-none bg-input placeholder-shown:font-nunito placeholder-shown:font-[400] placeholder-shown:text-[18px] placeholder-shown:leading-[27px] xl:w-[500px] xl:h-[68px] md:w-[300px] w-full rounded-[49px] py-3 px-4"
+							className="appearance-none outline-none bg-input placeholder-shown:font-nunito placeholder-shown:font-[400] placeholder-shown:text-[18px] placeholder-shown:leading-[27px] xl:w-[500px] xl:h-[68px] md:w-[300px] w-[300px] rounded-[49px] py-3 px-4"
 						/>
 					</div>
 
