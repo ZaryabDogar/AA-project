@@ -2,9 +2,9 @@ import { IoMdMail } from "react-icons/io";
 
 const Banner = () => {
   return (
-    <div className="font-jost sm:pl-8  md:pt-32 pt-20 sm:pb-24 pb-6  w-full xl:bg-[length:85%]  lg:bg-[length:100%] bg-[length:100%] flex  justify-end 
+    <div className="font-jost sm:pl-8 sm:pt-10  sm:pb-24 pb-6  w-full xl:bg-[length:85%]  lg:bg-[length:100%] bg-[length:100%] flex  justify-end 
     md:flex-row flex-col relative  ">
-      <div className=" w-full block md:hidden pt-20 sm:px-0 px-4">
+      <div className=" w-full block md:hidden pt-14 sm:px-0 px-4">
         {/* Main Heading */}
         <div className="w-full pb-4 md:text-start text-center ">
           <h1 className=" font-nunito font-[900] text-white lg:text-[2.5rem] text-[26px] sm:leading-[50px] py-2">
@@ -37,7 +37,7 @@ const Banner = () => {
         <img src="/banner.png" alt="" className="w-full" />
       </div>
  
-      <div className="xl:w-[42%] lg:w-[55%] md:w-[50%] sm:w-[55%] w-full absolute  lg:top-72 top-60 lg:left-20 left-5 md:block hidden">
+      <div className="xl:w-[42%] lg:w-[55%] md:w-[50%] sm:w-[55%] w-full absolute  lg:top-40 top-60 lg:left-20 left-5 md:block hidden">
         {/* Main Heading */}
         <div className="w-full pb-4 md:text-start text-center ">
           <h1 className=" font-nunito font-[900] text-white lg:text-[2.5rem] text-[30px] sm:leading-[50px] py-2">

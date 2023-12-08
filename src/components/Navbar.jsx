@@ -29,7 +29,7 @@ const Navbar = ({ scrolling }) => {
 
 	return (
 		<nav
-			className={`${navBg} bg-[#000000] text-white font-jost w-full  top-0 z-50 $ `}
+			className={`${navBg} bg-[#000000] text-white font-jost w-full   $ `}
 		>
 			<div className={`flex items-center justify-between w-full xl:pr-28 md:pr-12 pr-6 `}>
 				{/* img  */}
@@ -108,7 +108,7 @@ const Navbar = ({ scrolling }) => {
 			</div>
 			{/* responsive  */}
 			
-				<div className={`w-full  p-5 pb-28 pt-11 bg-[#000000] shadow-xl absolute top-[50px] border-1 transition-all ease-in-out duration-700  ${isOpen?'translate-y-0' :'-translate-y-[100vh]'}`}>
+				<div className={`w-full  p-5 pb-28 pt-11 bg-[#000000] shadow-xl absolute top-[50px] border-1 transition-all ease-in-out duration-700 z-50  ${isOpen?'translate-y-0' :'-translate-y-[100vh]'}`}>
 					<ul className="font-bold text-gray-600 flex flex-col w-full justify-center text-center items-center space-y-4 text-sm text-white">
 						<Link to="/">
 							<li
