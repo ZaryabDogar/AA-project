@@ -18,17 +18,17 @@ const mouseleave=()=>{
           <h2 className="mb-4 text-[32px] font-bold font-jost text-white leading-[46.24px]">Pricing</h2>
           <p className="mb-5 font-[300] text-[16px] font-jost leading-[30px] text-[#F5F5F5]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
       </div>
-      <div className="space-y-12 md:grid lg:grid-cols-3 gap-12 md:grid-cols-2   px-14  lg:space-y-0 flex justify-center  items-center flex-wrap ">
+      <div className="space-y-12 md:grid lg:grid-cols-3 gap-12 md:grid-cols-2   px-8  lg:space-y-0 flex justify-center  items-center flex-wrap ">
            {/* card 1  */}
-          <div className="mt-12 lg:mt-0 flex flex-col p-4   max-w-sm md:min-w-[0px]  sm:min-w-[384px] text-center  shadow-lg bg-[#106466] hover:border hover:border-[#106466] hover:shadow-md lg:border-0 border border-[#106466] [0_35px_60px_-15px_#3CCF8E1A] relative overflow-hidden transition-transform transform-gpu duration-100 lg:hover:scale-y-110 cursor-pointer hover:z-10 rounded-2xl md:h-[661px] " >
-              <h3 className="mb-1 text-start text-[19.71px] font-extrabold font-inter capitalize text-white ">7 day free trial</h3>
+          <div className="mt-12 lg:mt-0 flex flex-col p-3   max-w-sm md:min-w-[0px]  sm:min-w-[384px] text-center  shadow-lg bg-[#106466] hover:border hover:border-[#106466] hover:shadow-md lg:border-0 border border-[#106466] [0_35px_60px_-15px_#3CCF8E1A] relative overflow-hidden transition-transform transform-gpu duration-100 lg:hover:scale-y-[1.035] cursor-pointer hover:z-10 rounded-2xl md:h-[550px] 2xl:h-[640px] 2xl:h-[] " >
+              <h3 className=" text-start text-[16.71px] 2xl:text-[19.71px] font-extrabold font-inter capitalize text-white ">7 day free trial</h3>
              
-              <div className="flex  items-baseline mb-12 ">
-                  <h3 className="text-[#FFFFFF] font-inter  text-start text-[37.50px] font-extrabold capitalize">$0.00</h3>
+              <div className="flex  items-baseline mb-8 ">
+                  <h3 className="text-[#FFFFFF] font-inter  text-start text-[30.50px] 2xl:text-[37.85px] font-extrabold capitalize">$0.00</h3>
               
               </div>
-              <p className="font-roboto font-bold text-sm leading-[19.71px] text-white text-start mb-1">Free account:</p>
-              <ul role="list" className="my-5 space-y-2 text-left font-roboto">
+              <p className="font-roboto font-bold text-sm  text-white text-start ">Free account:</p>
+              <ul role="list" className="my-2 space-y-[5px] 2xl:space-y-3 text-left font-roboto">
                   <li className="flex space-x-3 items-center w-full text-white text-start font-roboto">
                      
                   <IoMdCheckmark className="text-[18px] " />
@@ -56,7 +56,7 @@ const mouseleave=()=>{
                   </li>
                 
               </ul>
-              <div className=" flex h-full w-full justify-center items-end">
+              <div className=" py-5 flex h-full w-full justify-center items-end lg:py-0">
            <Link to="/signup">
 								<button className="font-[700] bg-gradient-to-r from-[#2C3532] via-[#106466] to-[#2C3532]   px-8 py-3   text-btntext rounded-[40px]">
 									Signup
@@ -64,15 +64,15 @@ const mouseleave=()=>{
 							</Link></div>
           </div>
            {/* card 2  */}
-          <div className="mt-12 lg:mt-0 flex flex-col p-4   max-w-sm text-center  shadow-lg bg-[#106466] hover:border hover:border-[#106466] hover:shadow-md lg:border-0 border border-[#106466] [0_35px_60px_-15px_#3CCF8E1A] relative overflow-hidden transition-transform transform-gpu duration-100 lg:hover:scale-y-110 cursor-pointer hover:z-10 rounded-2xl md:h-[661px] md:min-w-[0px]  sm:min-w-[384px] sm:w-full w-[290px] " >
-              <h3 className="mb-1 text-start text-[19.71px] font-extrabold font-inter capitalize text-white ">Monthly</h3>
+          <div className="mt-12 lg:mt-0 flex flex-col p-3   max-w-sm text-center  shadow-lg bg-[#106466] hover:border hover:border-[#106466] hover:shadow-md lg:border-0 border border-[#106466] [0_35px_60px_-15px_#3CCF8E1A] relative overflow-hidden transition-transform transform-gpu duration-100 lg:hover:scale-y-[1.035] cursor-pointer hover:z-10 rounded-2xl md:h-[550px] 2xl:h-[640px] 2xl:h-[] md:min-w-[0px]  sm:min-w-[384px] sm:w-full w-[290px] " >
+              <h3 className=" text-start text-[16.71px] 2xl:text-[19.71px] font-extrabold font-inter capitalize text-white ">Monthly</h3>
              
-              <div className="flex  items-baseline mb-12 ">
-                  <h3 className="text-[#FFFFFF] font-inter  text-start text-[37.50px] font-extrabold capitalize">$11.95</h3>
+              <div className="flex  items-baseline mb-8 ">
+                  <h3 className="text-[#FFFFFF] font-inter  text-start text-[30.50px] 2xl:text-[37.85px] font-extrabold capitalize">$11.95</h3>
               
               </div>
-              <p className="font-roboto font-bold text-sm leading-[19.71px] text-white text-start mb-1">Monthly</p>
-              <ul role="list" className="my-5 space-y-2 text-left font-roboto ">
+              <p className="font-roboto font-bold text-sm  text-white text-start ">Monthly</p>
+              <ul role="list" className="my-2 space-y-[5px] 2xl:space-y-3 text-left font-roboto ">
                   <li className="flex space-x-3 items-center w-full text-white text-start font-roboto">
                      
                   <IoMdCheckmark className="text-[18px] " />
@@ -120,7 +120,7 @@ const mouseleave=()=>{
                   </li>
                 
               </ul>
-              <div className=" flex h-full w-full justify-center items-end">
+              <div className=" py-5 flex h-full w-full justify-center items-end lg:py-0">
            <Link to="/signup">
 								<button className="font-[700] bg-gradient-to-r from-[#2C3532] via-[#106466] to-[#2C3532]   px-8 py-3   text-btntext rounded-[40px]">
 									Signup
@@ -129,15 +129,15 @@ const mouseleave=()=>{
           </div>
      
            {/* card 3  */}
-          <div className="mt-12 lg:mt-0 flex flex-col p-4   max-w-sm text-center  shadow-lg bg-[#106466] hover:border hover:border-[#106466] hover:shadow-md lg:border-0 border border-[#106466] [0_35px_60px_-15px_#3CCF8E1A] relative overflow-hidden transition-transform transform-gpu duration-100 lg:hover:scale-y-110 cursor-pointer hover:z-10 rounded-2xl md:h-[661px] md:min-w-[0px]  sm:min-w-[384px] sm:w-full w-[290px]" >
-              <h3 className="mb-1 text-start text-[19.71px] font-extrabold font-inter capitalize text-white ">Annual</h3>
+          <div className="mt-12 lg:mt-0 flex flex-col p-3   max-w-sm text-center  shadow-lg bg-[#106466] hover:border hover:border-[#106466] hover:shadow-md lg:border-0 border border-[#106466] [0_35px_60px_-15px_#3CCF8E1A] relative overflow-hidden transition-transform transform-gpu duration-100 lg:hover:scale-y-[1.035] cursor-pointer hover:z-10 rounded-2xl md:h-[550px] 2xl:h-[640px]  md:min-w-[0px]  sm:min-w-[384px] sm:w-full w-[290px]" >
+              <h3 className=" text-start text-[16.71px] 2xl:text-[19.71px] font-extrabold font-inter capitalize text-white ">Annual</h3>
              
-              <div className="flex  items-baseline mb-12 flex-col">
-                  <h3 className="text-[#FFFFFF] font-inter  text-start text-[37.50px] font-extrabold capitalize">$59.95  </h3>
+              <div className="flex  items-baseline mb-8 flex-col">
+                  <h3 className="text-[#FFFFFF] font-inter  text-start text-[30.50px] 2xl:text-[37.85px] font-extrabold capitalize">$59.95  </h3>
               <p className="font-semibold font-roboto text-[13.14px] leading-[19.71px] text-white">Save 58%</p>
               </div>
-              <p className="font-roboto font-bold text-sm leading-[19.71px] text-white text-start mb-1">Yearly</p>
-              <ul role="list" className="my-5 space-y-2 text-left font-roboto ">
+              <p className="font-roboto font-bold text-sm  text-white text-start ">Yearly</p>
+              <ul role="list" className="my-2 space-y-[5px] 2xl:space-y-3 text-left font-roboto ">
                   <li className="flex space-x-3 items-center w-full text-white text-start font-roboto">
                      
                   <IoMdCheckmark className="text-[18px] " />
@@ -190,7 +190,7 @@ const mouseleave=()=>{
                   </li>
                 
               </ul>
-              <div className=" flex h-full w-full justify-center items-end">
+              <div className=" py-5 flex h-full w-full justify-center items-end lg:py-0">
            <Link to="/signup">
 								<button className="font-[700] bg-gradient-to-r from-[#2C3532] via-[#106466] to-[#2C3532]   px-8 py-3   text-btntext rounded-[40px]">
 									Signup
@@ -200,7 +200,7 @@ const mouseleave=()=>{
      
 
           {/* card 2  */}
-          {/* <div className="flex flex-col p-6   max-w-sm text-center  shadow-lg bg-[#106466] hover:border hover:border-[#106466] hover:shadow-md[0_35px_60px_-15px_#3CCF8E1A] relative overflow-hidden transition-transform transform-gpu duration-100 lg:hover:scale-y-110 h-fit cursor-pointer hover:z-10 rounded-2xl" onMouseEnter={mouseover} onMouseLeave={mouseleave}>
+          {/* <div className="flex flex-col p-6   max-w-sm text-center  shadow-lg bg-[#106466] hover:border hover:border-[#106466] hover:shadow-md[0_35px_60px_-15px_#3CCF8E1A] relative overflow-hidden transition-transform transform-gpu duration-100 lg:hover:scale-y-[1.035] h-fit cursor-pointer hover:z-10 rounded-2xl" onMouseEnter={mouseover} onMouseLeave={mouseleave}>
               <h3 className="mb-1 text-[14px] font-extrabold font-jost capitalize">Silver</h3>
              
               <div className="flex justify-center items-baseline mb-8 px-10 lg:px-0">
@@ -292,7 +292,7 @@ const mouseleave=()=>{
           </div> */}
 
           {/* card 4  */}
-          {/* <div className="flex flex-col p-6   max-w-sm text-center  shadow-lg bg-[#106466] hover:border hover:border-[#106466] hover:shadow-md[0_35px_60px_-15px_#3CCF8E1A] relative overflow-hidden transition-transform transform-gpu duration-100 lg:hover:scale-y-110 h-fit cursor-pointer hover:z-10 rounded-2xl" onMouseEnter={mouseover} onMouseLeave={mouseleave}>
+          {/* <div className="flex flex-col p-6   max-w-sm text-center  shadow-lg bg-[#106466] hover:border hover:border-[#106466] hover:shadow-md[0_35px_60px_-15px_#3CCF8E1A] relative overflow-hidden transition-transform transform-gpu duration-100 lg:hover:scale-y-[1.035] h-fit cursor-pointer hover:z-10 rounded-2xl" onMouseEnter={mouseover} onMouseLeave={mouseleave}>
               <h3 className="mb-1 text-[14px] font-semibold font-jost capitalize">Diamond</h3>
              
               <div className="flex justify-center items-baseline mb-8 px-10 lg:px-0 ">
