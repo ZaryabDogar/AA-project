@@ -1,7 +1,7 @@
 import  { useEffect, useState } from 'react';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { Link, useLocation,  } from 'react-router-dom';
-
+import { RxCross2 } from "react-icons/rx";
 const Navbar = ({ scrolling }) => {
 	const [isOpen, setIsOpen] = useState(false);
 	const location = useLocation();
@@ -91,17 +91,24 @@ const Navbar = ({ scrolling }) => {
 
 				{/* img on navbar  */}
 				
-				<button
+			{!isOpen&&(	<button
 					type="button"
 					className={`  font-medium text-3xl  px-2 py-2 text-center  focus:outline-none sm:hidden block text-white`}
 					onClick={toggleDropdown}
 				>
 					<RxHamburgerMenu />
-				</button>
+				</button>)}
+			{isOpen&&(	<button
+					type="button"
+					className={`  font-medium text-3xl  px-2 py-2 text-center  focus:outline-none sm:hidden block text-white`}
+					onClick={toggleDropdown}
+				>
+					<RxCross2 />
+				</button>)}
 			</div>
 			{/* responsive  */}
-			{isOpen && (
-				<div className="w-[100vw]  p-5 pb-28 pt-11 bg-[#000000] shadow-xl absolute top-[50px] border-1 ">
+			
+				<div className={`w-full  p-5 pb-28 pt-11 bg-[#000000] shadow-xl absolute top-[50px] border-1 transition-all ease-in-out duration-700  ${isOpen?'translate-y-0' :'-translate-y-[100vh]'}`}>
 					<ul className="font-bold text-gray-600 flex flex-col w-full justify-center text-center items-center space-y-4 text-sm text-white">
 						<Link to="/">
 							<li
@@ -140,7 +147,7 @@ const Navbar = ({ scrolling }) => {
 
 				
 				</div>
-			)}
+		
 		</nav>
 	);
 };

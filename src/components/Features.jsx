@@ -28,14 +28,10 @@ const Features = () => {
             {/* Right Text */}
             <div className="lg:w-[50%] w-full lg:mt-0 mb-16 lg:text-start text-center">
               <h2 className="font-[900] sm:text-[2.125rem]  lg:text-[2.5rem] text-[26px] sm:leading-[42.5px] text-white">
-                Cross-Format Compatibility
+              Cross-Format Compatibility
               </h2>
               <p className="text-[1.125rem] pt-3 pb-8 text-[#F5F5F5] sm:leading-[22.5px] leading-[18px] lg:mb-0 mb-16">
-                Stegsec is designed to work with various multimedia formats,
-                including images, audio, and video files. Whether you&apos;re
-                safeguarding a confidential document or encrypting a crucial
-                audio message, Stegsec supports your diverse needs while
-                maintaining top-tier data security.
+              Stegsec is designed to work with several multimedia formats which  includes image, audio & video. Whether you're safeguarding confidential documents or encrypting a crucial message, Stegsec supports your diverse needs while maintaining top-tier data security
               </p>
             </div>
           </div>

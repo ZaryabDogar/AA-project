@@ -5,23 +5,23 @@ const Revenue = () => {
   const features = [
     {
       img: "/revenue1.png",
-      title: "Customer retention on autopilot",
-      desc: "Empower GTM, account teams and end users with personalized insights to minimize churn and expand product adoption",
+      title: "Simplifying Data Security",
+      desc: "Layered encryption, Complex algorithms and encoding techniques are simplified with Stegsec",
     },
     {
       img: "/revenue2.png",
-      title: "User-Friendly Interface",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus, magna vitae scelerisque vulputate,Lorem ipsum dolor ",
+      title: "Friendly & Fun Interface",
+      desc: "Our simple user interface eliminates unnecessary barriers between users and data security. Data security with multimedia take the main stage.",
     },
     {
       img: "/revenue3.png",
-      title: "Fernet Cipher Encryption",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus, magna vitae scelerisque vulputate,Lorem ipsum dolor ",
+      title: "Layered Encryption & AI Integration",
+      desc: "Complexity executed on the back end while simplifying the front end.  See it, Hear It Steg It",
     },
     {
       img: "/revenue4.png",
-      title: "Versatility Across File Formats",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus, magna vitae scelerisque vulputate,Lorem ipsum dolor ",
+      title: "File Format Versatility",
+      desc: "From PDFs to Office documents we have you covered.  See It, hear It Steg It",
     },
   ];
 
@@ -29,7 +29,7 @@ const Revenue = () => {
     <Section>
       <div className="font-nunito py-14 space-y-7 ">
         <h2 className="font-[800] text-center xl:w-[40%] lg:w-[60%] w-full mx-auto sm:text-4xl text-[26px] sm:leading-[49.1px] text-white px-3">
-          Automate software revenue management without any code
+        See It, Hear It, Steg It
         </h2>
         <div className="flex justify-center">
         <div className="py-8 lg:px-14 grid lg:grid-cols-2 grid-cols-1 xl:gap-x-20 gap-x-16 gap-y-10 px-5">
@@ -58,13 +58,10 @@ const Revenue = () => {
           Ready to experience the next frontier in multimedia data security?
         </h2>
         <p className="text-[1.25rem] lg:w-[58%] w-full py-8 mx-auto leading-[25px] text-[#F5F5F5]">
-          Download Stegsec now and explore the possibilities of hidden
-          communication, secure file sharing, and discreet information storage.
-          Protect your sensitive data with Stegsec – where innovation meets
-          responsibility.
+        Download Stegsec now and explore the possibilities of hidden communication, secure file sharing, and discreet information storage. Protect your sensitive data with Stegsec – where innovation meets responsibility.
         </p>
         <Link to="/signup">
-          <button className="font-[700] bg-major px-11 py-3 text-[white] rounded-[40px]">
+          <button className="font-[700] bg-major px-11 py-3 sm:mt-8 text-[white] rounded-[40px]">
             Sign up
           </button>
         </Link>

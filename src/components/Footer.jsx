@@ -48,13 +48,7 @@ const Footer = () => {
         { title: "Demo", link: "/dashboard" },
       ],
     },
-    {
-      title: "Products",
-      links: [
-        { title: "Salvador", link: "#" },
-        { title: "Azrial", link: "#" },
-      ],
-    },
+  
   ];
 
   const contactlist = [
@@ -75,11 +69,11 @@ const Footer = () => {
 
   return (
     <Section className=" ">
-      <ul className={`flex flex-wrap sm:flex-row flex-col sm:items-start sm:justify-between justify-center gap-y-8 font-roboto text-white sm:pt-32 pt-7 sm:pb-8 pb-4  xl:px-20 px-5 bg-[#000000]`}>
+      <ul className={`flex flex-wrap lg:flex-row flex-col lg:items-start lg:justify-between justify-center gap-y-8 font-roboto text-white lg:pt-32 pt-7 lg:pb-8 pb-4  xl:px-20 px-5 bg-[#000000]`}>
         
-        <li className="sm:block sm:w-auto w-full flex flex-col  items-center justify-between">
-          <img src="/logo.png" alt="Logo" className="sm:w-full w-[55%]" />
-          <div className="social_links flex items-center justify-around p-4 sm:w-auto w-[45%] sm:gap-0 gap-2">
+        <li className="lg:block lg:w-auto w-full flex flex-col  items-center justify-between">
+          <img src="/logo.png" alt="Logo" className="lg:w-full w-[55%]" />
+          <div className="social_links flex items-center justify-around p-4 lg:w-auto w-[45%] lg:gap-0 gap-2">
             {social_links.map((link, i) => (
               <Link key={i} to={`${link.link}`}>
                 {link.icon}
@@ -93,7 +87,7 @@ const Footer = () => {
             <h3 className="font-bold text-[21.01px] leading-[24.62px] pb-8">
               {link.title}
             </h3>
-            <ul className="flex sm:flex-col flex-row items-start gap-4">
+            <ul className="flex lg:flex-col flex-row items-start gap-4">
               {link.links.map((item, i) => (
                 <li key={i}>
                   <Link
@@ -125,6 +119,7 @@ const Footer = () => {
             ))}
           </ul>
         </li>
+        <li className=""></li>
       </ul>
     </Section>
   );

@@ -90,7 +90,7 @@ const ContactForm = () => {
           <div className="flex lg:justify-start justify-center">
             <button
               type="submit"
-              className="font-[500] text-major sm:px-11 sm:py-4 px-6 py-2 rounded-full bg-white"
+              className="font-[500] text-major sm:px-11 sm:py-3 px-6 py-2 rounded-full bg-white"
             >
               Submit
             </button>

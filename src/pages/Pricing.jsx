@@ -20,7 +20,7 @@ const mouseleave=()=>{
       </div>
       <div className="space-y-12 md:grid lg:grid-cols-3 gap-12 md:grid-cols-2   px-14  lg:space-y-0 flex justify-center  items-center flex-wrap ">
            {/* card 1  */}
-          <div className="mt-12 lg:mt-0 flex flex-col p-4   max-w-sm md:min-w-[0px]  sm:min-w-[384px] text-center  shadow-lg bg-[#106466] hover:border hover:border-[#106466] hover:shadow-md lg:border-0 border border-[#106466] [0_35px_60px_-15px_#3CCF8E1A] relative overflow-hidden transition-transform transform-gpu duration-100 lg:hover:scale-y-110 cursor-pointer hover:z-10 rounded-2xl md:h-[661px] md:min-w-[0px]  sm:min-w-[384px]" >
+          <div className="mt-12 lg:mt-0 flex flex-col p-4   max-w-sm md:min-w-[0px]  sm:min-w-[384px] text-center  shadow-lg bg-[#106466] hover:border hover:border-[#106466] hover:shadow-md lg:border-0 border border-[#106466] [0_35px_60px_-15px_#3CCF8E1A] relative overflow-hidden transition-transform transform-gpu duration-100 lg:hover:scale-y-110 cursor-pointer hover:z-10 rounded-2xl md:h-[661px] " >
               <h3 className="mb-1 text-start text-[19.71px] font-extrabold font-inter capitalize text-white ">7 day free trial</h3>
              
               <div className="flex  items-baseline mb-12 ">
@@ -42,7 +42,7 @@ const mouseleave=()=>{
                   <li className="flex space-x-3 items-center w-full text-white text-start font-roboto">
                      
                   <IoMdCheckmark className="text-[18px] " />
-                      <span className=" text-[13.14px] tracking-[0.41px]   leading-[20.23px] text-[#E9E9E9] font-roboto">Hidden File Size</span>
+                      <span className=" text-[13.14px] tracking-[0.41px]   leading-[20.23px] text-[#E9E9E9] font-roboto">1 MB Hidden File Size Limit</span>
                   </li>
                   <li className="flex space-x-3 items-center w-full text-white text-start font-roboto">
                      
@@ -86,7 +86,7 @@ const mouseleave=()=>{
                   <li className="flex space-x-3 items-center w-full text-white text-start font-roboto">
                      
                   <IoMdCheckmark className="text-[18px] " />
-                      <span className=" text-[13.14px] tracking-[0.41px]   leading-[20.23px] text-[#E9E9E9] font-roboto">Hidden File Size</span>
+                      <span className=" text-[13.14px] tracking-[0.41px]   leading-[20.23px] text-[#E9E9E9] font-roboto">No Hidden File Size Limit</span>
                   </li>
                   <li className="flex space-x-3 items-center w-full text-white text-start font-roboto">
                      
@@ -151,7 +151,7 @@ const mouseleave=()=>{
                   <li className="flex space-x-3 items-center w-full text-white text-start font-roboto">
                      
                   <IoMdCheckmark className="text-[18px] " />
-                      <span className=" text-[13.14px] tracking-[0.41px]   leading-[20.23px] text-[#E9E9E9] font-roboto">Hidden File Size</span>
+                      <span className=" text-[13.14px] tracking-[0.41px]   leading-[20.23px] text-[#E9E9E9] font-roboto">No Hidden File Size Limit</span>
                   </li>
                   <li className="flex space-x-3 items-center w-full text-white text-start font-roboto">
                      
