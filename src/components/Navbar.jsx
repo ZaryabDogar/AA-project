@@ -37,7 +37,7 @@ const Navbar = ({ scrolling }) => {
 					<img
 						src="/logo.png"
 						alt=""
-						className=" md:w-[214px] sm:w-[160px] w-[100px] pt-2 pl-3 sm:pt-0 sm:pl-3"
+						className="2xl:w-[257px] 2xl:h-[162px] md:w-[222px] sm:w-[160px] w-[140px] pt-2 pl-3 sm:pt-0 sm:pl-3"
 					/>
 				</div>
 				{/* content  */}
