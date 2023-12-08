@@ -24,12 +24,12 @@ const Navbar = ({ scrolling }) => {
 			: ''
 		: 'bg-[#000000]';
 
-	const navPosition = isHome ? 'fixed bg-transparent  ' : 'sticky';
+	// const navPosition = isHome ? 'fixed bg-transparent  ' : 'sticky';
 	// const notdashboard = !isdashboard ? '' : ' text-white';
 
 	return (
 		<nav
-			className={`${navBg} font-jost w-full  top-0 z-50 ${navPosition} `}
+			className={`${navBg} bg-[#000000] text-white font-jost w-full  top-0 z-50 $ `}
 		>
 			<div className={`flex items-center justify-between w-full xl:pr-28 md:pr-12 pr-6 `}>
 				{/* img  */}
@@ -37,7 +37,7 @@ const Navbar = ({ scrolling }) => {
 					<img
 						src="/logo.png"
 						alt=""
-						className="xl:w-full md:w-[214px] sm:w-[160px] w-[100px] pt-2 pl-3 sm:pt-0 sm:pl-3"
+						className="xl:w-[] md:w-[214px] sm:w-[160px] w-[100px] pt-2 pl-3 sm:pt-0 sm:pl-3"
 					/>
 				</div>
 				{/* content  */}
