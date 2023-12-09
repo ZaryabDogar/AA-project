@@ -64,7 +64,7 @@ const mouseleave=()=>{
 							</Link></div>
           </div>
            {/* card 2  */}
-          <div className="mt-12 lg:mt-0 flex flex-col p-3   max-w-sm text-center  shadow-lg bg-[#106466] hover:border hover:border-[#106466] hover:shadow-md lg:border-0 border border-[#106466] [0_35px_60px_-15px_#3CCF8E1A] relative overflow-hidden transition-transform transform-gpu duration-100 lg:hover:scale-y-[1.035] cursor-pointer hover:z-10 rounded-2xl md:h-[550px] 2xl:h-[640px] 2xl:h-[] md:min-w-[0px]  sm:min-w-[384px] sm:w-full w-[290px] " >
+          <div className="mt-12 lg:mt-0 flex flex-col p-3   max-w-sm text-center  shadow-lg bg-[#106466] hover:border hover:border-[#106466] hover:shadow-md lg:border-0 border border-[#106466] [0_35px_60px_-15px_#3CCF8E1A] relative overflow-hidden transition-transform transform-gpu duration-100 lg:hover:scale-y-[1.035] cursor-pointer hover:z-10 rounded-2xl md:h-[550px] 2xl:h-[640px] md:min-w-[0px]  sm:min-w-[384px] sm:w-full w-[290px] " >
               <h3 className=" text-start text-[16.71px] 2xl:text-[19.71px] font-extrabold font-inter capitalize text-white ">Monthly</h3>
              
               <div className="flex  items-baseline mb-8 ">
@@ -132,7 +132,7 @@ const mouseleave=()=>{
           <div className="mt-12 lg:mt-0 flex flex-col p-3   max-w-sm text-center  shadow-lg bg-[#106466] hover:border hover:border-[#106466] hover:shadow-md lg:border-0 border border-[#106466] [0_35px_60px_-15px_#3CCF8E1A] relative overflow-hidden transition-transform transform-gpu duration-100 lg:hover:scale-y-[1.035] cursor-pointer hover:z-10 rounded-2xl md:h-[550px] 2xl:h-[640px]  md:min-w-[0px]  sm:min-w-[384px] sm:w-full w-[290px]" >
               <h3 className=" text-start text-[16.71px] 2xl:text-[19.71px] font-extrabold font-inter capitalize text-white ">Annual</h3>
              
-              <div className="flex  items-baseline mb-8 flex-col">
+              <div className="flex  items-baseline mb-3 2xl:mb-8 flex-col">
                   <h3 className="text-[#FFFFFF] font-inter  text-start text-[30.50px] 2xl:text-[37.85px] font-extrabold capitalize">$59.95  </h3>
               <p className="font-semibold font-roboto text-[13.14px] leading-[19.71px] text-white">Save 58%</p>
               </div>
