@@ -6,7 +6,7 @@ const Dashboard = () => {
 				<div className="lg:w-[45%] py-8 flex justify-center bg-[#D9DEE4]   items-center">
 					<img
 						src="/robo.png"
-						className="xl:w-[300px] xl:h-[420px] lg:w-[200px] lg:h-[322px] sm:w-[200px] sm:h-[322px] w-[100px] h-[202px]"
+						className="xl:w-[300px] xl:h-[414px] lg:w-[200px] lg:h-[322px] sm:w-[200px] sm:h-[322px] w-[100px] h-[202px]"
 						alt="robo"
 					/>
 				</div>
